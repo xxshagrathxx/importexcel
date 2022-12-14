@@ -1,5 +1,5 @@
 {
-    "name": "vendor/importexcel",
+    "name": "mwahba/importexcel",
     "description": "This is a package to import excel files to SQLite database",
     "type": "library",
     "license": "MIT",
