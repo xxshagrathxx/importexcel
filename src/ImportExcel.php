@@ -1,13 +1,10 @@
 <?php
 
-require 'vendor/autoload.php';
-
-use PhpOffice\PhpSpreadsheet\Spreadsheet;
-use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
+namespace Mwahba\Importexcel;
 
 class ImportExcel implements ImportExcelInterface
 {
-    public function import_excel($uploadControlName)
+    public static function import_excel($uploadControlName):void
     {
         $fileName = $_FILES[$uploadControlName]['name'];
         $file_ext = pathinfo($fileName, PATHINFO_EXTENSION);

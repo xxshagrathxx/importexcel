@@ -1,20 +1,21 @@
 {
     "name": "mwahba/importexcel",
-    "description": "This is a package to import excel files to SQLite database",
-    "type": "library",
+    "description": "This a php library to import excel files to SQLite database",
+    "type": "lirarby",
+    "require": {
+        "phpoffice/phpspreadsheet": "dev-master"
+    },
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Importexcel\\": "./Importexcel"
+            "Mwahba\\Importexcel\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "Mostafa Wahba"
+            "name": "Mostafa",
+            "email": "mostafa@binbug.net"
         }
     ],
-    "require": {
-        "php": ">=7.2",
-        "phpoffice/phpspreadsheet": "1.*"
-    }
+    "minimum-stability": "dev"
 }
