@@ -1,0 +1,20 @@
+{
+    "name": "vendor/importexcel",
+    "description": "This is a package to import excel files to SQLite database",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Importexcel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mostafa Wahba"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.*",
+        "phpoffice/phpspreadsheet": "1.*"
+    }
+}
