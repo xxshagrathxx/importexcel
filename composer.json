@@ -3,7 +3,7 @@
     "description": "This a php library to import excel files to SQLite database",
     "type": "lirarby",
     "require": {
-        "phpoffice/phpspreadsheet": "dev-master"
+        "phpoffice/phpspreadsheet": "1.*"
     },
     "license": "MIT",
     "autoload": {
