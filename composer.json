@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Vendor\\Importexcel\\": "src/"
+            "Importexcel\\": "./Importexcel"
         }
     },
     "authors": [
