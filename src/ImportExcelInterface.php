@@ -1,6 +1,8 @@
 <?php
 
+namespace Mwahba\Importexcel;
+
 interface ImportExcelInterface
 {
-    public function import_excel($uploadControlName):void;
+    public static function import_excel($uploadControlName):void;
 }

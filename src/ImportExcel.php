@@ -2,6 +2,8 @@
 
 namespace Mwahba\Importexcel;
 
+use PDO;
+
 class ImportExcel implements ImportExcelInterface
 {
     public static function import_excel($uploadControlName):void
